@@ -1,0 +1,7 @@
+.nav__container {
+  display: flex;
+}
+
+.nav__right {
+  margin-left: auto;
+}
