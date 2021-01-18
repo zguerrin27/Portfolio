@@ -6,6 +6,7 @@ import NavBar from './components/NavBar/NavBar'
 import Home from './components/Home/Home';
 import About from './components/About/About'
 import Projects from './components/Projects/Projects'
+import ParticleComponent from './components/ParticleComponent/ParticleComponent'
 import Resume from './components/Resume/Resume'
 import Contact from './components/Contact/Contact'
 import Error from './components/Error/Error'
@@ -13,7 +14,8 @@ import Error from './components/Error/Error'
 
 function App() {
   return (
-    <main>
+    <main id="main">
+      <ParticleComponent />
       <NavBar/>
       <Switch>
         <Route exact path="/" component={Home} />

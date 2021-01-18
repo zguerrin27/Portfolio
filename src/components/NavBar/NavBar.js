@@ -14,9 +14,9 @@ function NavBar(props) {
           <Nav.Link href="/contact">Contact Me</Nav.Link>
         </Nav>
         <Nav className="ml-auto right-nav">                         
-          <Nav.Link href="/"><i class="fab fa-github fa-2x" ></i></Nav.Link>
-          <Nav.Link href="/"><i class="fab fa-linkedin fa-2x" ></i></Nav.Link>
-          <Nav.Link href="/"><i class="fab fa-instagram fa-2x" ></i></Nav.Link>
+          <Nav.Link href="https://github.com/zguerrin27"><i class="fab fa-github fa-2x" ></i></Nav.Link>
+          <Nav.Link href="https://linkedin.com/in/zpg"><i class="fab fa-linkedin fa-2x" ></i></Nav.Link>
+          <Nav.Link href="https://instagram.com/zg603"><i class="fab fa-instagram fa-2x" ></i></Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

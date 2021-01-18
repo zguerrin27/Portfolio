@@ -2,4 +2,11 @@
 
 body {
   background-color: #1d1d1d;
+  font-family: 'Archivo', sans-serif;
+  /* font-family: "Open Sans", sans-serif;; */
 }
+
+/* #main {
+  max-height: 100vh;
+  max-width: 100vw;
+} */
