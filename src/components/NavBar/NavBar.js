@@ -4,7 +4,7 @@ import './NavBar.css';
 function NavBar(props) {
   return (
     <Navbar bg="dark" variant="dark" expand="md">
-      <Navbar.Brand href="/">ZacharyGuerrin</Navbar.Brand>
+      <Navbar.Brand href="/">zg</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto left-nav">                          {/* means "marginLeft-auto". could also be mr-auto */}
