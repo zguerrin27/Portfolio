@@ -1,22 +1,30 @@
 
-h1 {
-  margin-bottom: 0;
+.homepage__container {
+  height: 90vh;
 }
 
-/* .homepage__container {
-  
-} */
-
-.homepage__left {
-  min-width: 25%;
-  margin-left: 2rem;
-  margin-top: 15%;
+.homepage__text {
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /* width: 40%; */
+  max-height: 90%;
+  background-color: #1d1d1d;
+  border: 25px solid #1d1d1d;
+  border-radius: 25px;
+  box-shadow: 7px 7px 5px #161616;
 }
 
 .homepage__heading {
   color: white;
   font-size: 4.5rem;
   font-weight: 200;
+  width: fit-content;
+  margin-bottom: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .homepage__description {
@@ -28,10 +36,34 @@ h1 {
   font-weight: 200;
   letter-spacing: 3px;
   font-stretch: 100%;
+  width: fit-content;
+  /* background-color: #1d1d1d; */
 }
 
 .homepage__button {
   color: #08fdd8;
   border-color: #08fdd8;
-  border-radius: 0;
+  border-radius: 5px;
+  width: 100%;
 }
+
+
+.homepage__button:hover {
+  background-color: #08fdd8;
+  border-color: #08fdd8;
+  color: black;
+}
+
+.homepage__button:hover a {
+  color: black;
+  background-color: #08fdd8;
+}
+
+/* .homepage__img__container {
+  background-image: url('../../assets/hiking_pic.jpg');
+} */
+
+/* .homepage__img {
+  width: 50px;
+  height: 50px;
+} */

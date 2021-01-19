@@ -1,21 +1,28 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-import Button from 'react-bootstrap/Button';
 
+// import pic from '../../assets/hiking_pic.jpg';
 import './Home.css';
 
 function Home(props) {
   return (
     <div className="homepage__container">
-      <div className="homepage__left">
-        <h1 className="homepage__heading">Hi,</h1>
-        <h1 className="homepage__heading">I'm Zach.</h1>
-        <h4 className="homepage__description">Web Developer</h4>
-        <Link to="/about"><Button className="homepage__button" variant="outline-primary">Contact me!</Button></Link>
+
+      <div className="homepage__textContainer">
+
+        <div className="homepage__text">
+          <h1 className="homepage__heading">Hi.</h1>
+          <h1 className="homepage__heading">I'm Zach.</h1>
+          <h4 className="homepage__description">Front End / Full Stack Web Developer</h4>
+          <a href="/about" class="btn homepage__button" role="button">Learn more about me</a>
+          {/* <img className="homepage__img" src={pic} alt="Profile Pic" /> */}
+        </div>
+
+        <div className="homepage__img__container">
+          {/* <img className="homepage__img" src={pic} alt="Profile Pic" /> */}
+        </div>
+
       </div>
-      <div className="homepage__right">
-       
-      </div>
+
     </div>
     
   );
