@@ -1,19 +1,24 @@
 
 #aboutMe__container {
-  height: 90vh;
+  width: 100%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 1;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
 }
 
 #aboutMe__text {
   position: absolute;
-  left: 25%;
+  left: 20%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  width: 50%;
-  vertical-align: middle;
-  display: table-cell;
-  max-height: 90%;
+  max-width: 60%;
   background-color: #1d1d1d;
   border: 25px solid #1d1d1d;
   border-radius: 25px;
@@ -27,23 +32,28 @@
   font-weight: 300;
   margin-top: 0;
   position: relative;
-  margin-bottom: 40px;
-  /* left: -10px; */
+  margin-bottom: 2rem;
 }
 
 #aboutMe__descriptions {
   display: flex;
+  flex-direction: row;
 }
 
-#aboutMe__text h4, #aboutMe__text p  {
+#aboutMe__subTitle {
+  color: #8d8d8d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  
+}
+
+#aboutMe__descriptions p  {
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
-}
-
-#aboutMe__prof h4 {
-  color: white;
 }
 
 #aboutMe__prof {
@@ -52,16 +62,59 @@
   flex: 1;
 }
 
-#aboutMe__pers h4 {
-  color: white;
-}
-
 #aboutMe__pers {
   color: white;
   flex: 1;
 }
 
-/* @media only screen and (max-width: 600px) {
-  
-} */
+#aboutMe__icons {
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.rails__icon {
+  height: 56px;
+  width: 56px;
+
+}
+
+@media (max-width: 1500px){
+  #aboutMe__text {
+    max-width: 75%;
+    left: 12%;
+  }
+}
+
+@media (max-width: 1000px){
+  #aboutMe__text {
+    max-width: 80%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    top: 54%;
+  }
+  #aboutMe__descriptions {
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 530px){
+  #aboutMe__text {
+    top: 69%;
+  }
+}
+
+@media (max-width: 410px){
+  #aboutMe__text {
+    top: 80%;
+  }
+}
+
+@media (max-width: 300px){
+  #aboutMe__text {
+    top: 97%;
+  }
+}

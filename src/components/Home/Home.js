@@ -17,9 +17,9 @@ function Home(props) {
           {/* <img className="homepage__img" src={pic} alt="Profile Pic" /> */}
         </div>
 
-        <div className="homepage__img__container">
-          {/* <img className="homepage__img" src={pic} alt="Profile Pic" /> */}
-        </div>
+        {/* <div className="homepage__img__container">
+          <img className="homepage__img" src={pic} alt="Profile Pic" />
+        </div> */}
 
       </div>
 

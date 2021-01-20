@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://guerrinteed.com",
   "dependencies": {
+    "@coreui/icons": "^2.0.0-rc.0",
+    "@coreui/icons-react": "^1.0.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -12,9 +14,12 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
+    "react-icons": "^4.1.0",
     "react-particles-js": "^3.4.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "styled-components": "^5.2.1",
+    "styled-icons": "^10.26.0",
     "tsparticles": "^1.18.11",
     "web-vitals": "^0.2.4"
   },
