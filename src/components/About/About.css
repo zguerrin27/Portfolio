@@ -1,6 +1,6 @@
 
 #aboutMe__container {
-  width: 100%;
+  /* width: 100%;
   will-change: contents;
   height: 90%;
   min-height: 566px;
@@ -8,11 +8,14 @@
   opacity: 1;
   top: 5%;
   margin: 0 auto;
-  z-index: 1;
+  z-index: 1; */
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
-#aboutMe__text {
-  position: absolute;
+#aboutMe__textContainer {
+  /* position: absolute;
   left: 20%;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -22,7 +25,16 @@
   background-color: #1d1d1d;
   border: 25px solid #1d1d1d;
   border-radius: 25px;
-  box-shadow: 7px 7px 5px #161616;
+  box-shadow: 7px 7px 5px #161616; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  background-color: #1d1d1d;
+  border: 25px solid #1d1d1d;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px #161616;
 }
 
 #header {
@@ -75,46 +87,27 @@
 .rails__icon {
   height: 56px;
   width: 56px;
-
 }
 
-@media (max-width: 1500px){
-  #aboutMe__text {
-    max-width: 75%;
-    left: 12%;
-  }
-}
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 
-@media (max-width: 1000px){
-  #aboutMe__text {
-    max-width: 80%;
-    left: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: fit-content;
-    top: 54%;
+    #aboutMe__descriptions {
+      flex-direction: column;
+    }
+
+} */
+
+@media only screen and (max-width: 600px) {
+  #aboutMe__textContainer {
+    top: 85%
   }
   #aboutMe__descriptions {
     flex-direction: column;
   }
-}
-
-
-@media (max-width: 530px){
-  #aboutMe__text {
-    top: 69%;
-  }
-}
-
-@media (max-width: 410px){
-  #aboutMe__text {
-    top: 80%;
-  }
-}
-
-@media (max-width: 300px){
-  #aboutMe__text {
-    top: 97%;
+  #aboutMe__subTitle {
+    margin-top: 40px;
   }
 }

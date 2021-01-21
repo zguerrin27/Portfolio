@@ -7,7 +7,8 @@ function About(props) {
   
   return (
     <div id="aboutMe__container">
-      <div id="aboutMe__text">
+
+      <div id="aboutMe__textContainer">
         <h1 id="header">About Me</h1>
         <div id="aboutMe__descriptions">
           <div id="aboutMe__prof">
@@ -35,6 +36,7 @@ function About(props) {
           </div>
         </div>
       </div>
+
     </div>
   );
 }
