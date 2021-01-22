@@ -1,12 +1,22 @@
 import React from 'react';
-import { Rubyonrails } from '@styled-icons/simple-icons/Rubyonrails'
+import { Rubyonrails } from '@styled-icons/simple-icons/Rubyonrails';
+import { motion } from "framer-motion";
 
 import './About.css';
+import framerMotion from '../../helpers/framerMotion';
+
 
 function About(props) {
   
   return (
-    <div id="aboutMe__container">
+    <motion.div 
+      exit="out" 
+      animate="in" 
+      initial="out" 
+      variants={framerMotion.pageVariants} 
+      transitions={framerMotion.pageTransition} 
+      id="aboutMe__container"
+    >
 
       <div id="aboutMe__textContainer">
         <h1 id="header">About Me</h1>
@@ -37,7 +47,7 @@ function About(props) {
         </div>
       </div>
 
-    </div>
+    </motion.div>
   );
 }
 

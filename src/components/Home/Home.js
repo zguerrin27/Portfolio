@@ -1,11 +1,21 @@
 import React from 'react';
+import { motion } from "framer-motion"
 
 // import pic from '../../assets/hiking_pic.jpg';
 import './Home.css';
+import framerMotion from '../../helpers/framerMotion';
+
 
 function Home(props) {
   return (
-    <div className="homepage__container">
+    <motion.div 
+      exit="out" 
+      animate="in" 
+      initial="out" 
+      variants={framerMotion.pageVariants} 
+      transitions={framerMotion.pageTransition} 
+      className="homepage__container"
+    >
 
       <div className="homepage__textContainer">
 
@@ -23,7 +33,7 @@ function Home(props) {
 
       </div>
 
-    </div>
+    </motion.div>
     
   );
 }

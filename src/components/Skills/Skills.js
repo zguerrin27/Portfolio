@@ -1,10 +1,11 @@
 import React from 'react';
 import { motion } from "framer-motion";
 
-import './Projects.css';
+import './Skills.css';
 import framerMotion from '../../helpers/framerMotion';
 
-function Projects(props) {
+
+function Skills(props) {
   return (
     <motion.div
       exit="out" 
@@ -12,14 +13,13 @@ function Projects(props) {
       initial="out" 
       variants={framerMotion.pageVariants} 
       transitions={framerMotion.pageTransition}
-      className="projects__container"
+      className="skills__container"
     >
-      <div className="projects__cardContainer">
-        <h1>My Projects</h1>
+      <div className="skills__cardContainer">
+        <h1>Skills</h1>
       </div>
-
     </motion.div>
   );
 }
 
-export default Projects;
+export default Skills;

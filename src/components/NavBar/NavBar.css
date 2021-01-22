@@ -5,11 +5,11 @@
   z-index: 1;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   font-size: 1.5rem;
   font-weight: 200;
   letter-spacing: 2px;
-}
+} */
 
 .navbar-dark .navbar-brand {
   color: #08fdd8;
@@ -20,3 +20,16 @@
   letter-spacing: 2.5px;
 }
 
+#navbar__brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  font-size: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: #08fdd8;
+}
