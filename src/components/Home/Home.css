@@ -6,10 +6,11 @@
 
 .homepage__textContainer {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
   width: 90%;
+  max-width: 550px;
   background-color: #1d1d1d;
   border: 25px solid #1d1d1d;
   border-radius: 25px;
@@ -24,13 +25,12 @@
   width: fit-content;
   margin-bottom: 0;
   font-family: "Open Sans", sans-serif;
-  font-family: 'Archivo', sans-serif;
 }
 
 .homepage__description {
   color: #8d8d8d;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: 200;
