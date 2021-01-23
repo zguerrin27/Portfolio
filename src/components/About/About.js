@@ -19,7 +19,7 @@ function About(props) {
     >
 
       <div id="aboutMe__textContainer">
-        <h1 id="header">About Me</h1>
+        <h1 id="header">About Me.</h1>
         <div id="aboutMe__descriptions">
           <div id="aboutMe__prof">
             <h4 id="aboutMe__subTitle">Professionally</h4>
@@ -29,10 +29,10 @@ function About(props) {
                I worked daily on our next-gen analytics tool used to read trends in diagnostics data from millions of devices around the world. During this time I worked primarily with HTML, CSS, Javscript (ES5/ES6), React, Redux, Ruby on Rails, MySQL and PostgreSQL.</p>
             <p>In addition to those technologies, I wrote and maintained Unit and Integrations tests using Jest, Enzyme, RSPEC and chromium. As well as Github for version control.</p>
             <div id="aboutMe__icons">
-              <i class="fab fa-js fa-4x"></i>
+              <i className="fab fa-js fa-4x"></i>
               {/* <i className="rails__icon"><Rubyonrails width="100%" height="100%" /></i> */}
               <Rubyonrails viewBox="10 0 15 20" width="100" height="56" />
-              <i class="fab fa-react fa-4x"></i>
+              <i className="fab fa-react fa-4x"></i>
               
               
 

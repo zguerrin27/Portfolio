@@ -15,9 +15,9 @@ function NavBar(props) {
           <Nav.Link as={Link} to="/contact" >Contact Me</Nav.Link>
         </Nav>
         <Nav className="ml-auto right-nav">                         
-          <Nav.Link as={Link} to="https://github.com/zguerrin27"><i class="fab fa-github fa-2x" ></i></Nav.Link>
-          <Nav.Link as={Link} to="https://linkedin.com/in/zpg"><i class="fab fa-linkedin fa-2x" ></i></Nav.Link>
-          <Nav.Link as={Link} to="https://instagram.com/zg603"><i class="fab fa-instagram fa-2x" ></i></Nav.Link>
+          <Nav.Link as={Link} to="https://github.com/zguerrin27"><i className="fab fa-github fa-2x" ></i></Nav.Link>
+          <Nav.Link as={Link} to="https://linkedin.com/in/zpg"><i className="fab fa-linkedin fa-2x" ></i></Nav.Link>
+          <Nav.Link as={Link} to="https://instagram.com/zg603"><i className="fab fa-instagram fa-2x" ></i></Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
