@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import './Contact.css';
 import framerMotion from '../../helpers/framerMotion';
 import ContactForm from '../Form/ContactForm';
+import MapComponent from '../MapComponent/MapComponent'
 
 
 function Contact(props) {
@@ -29,9 +30,10 @@ function Contact(props) {
 
       {/* </div> */}
 
-      <div className="map__container">
+      {/* <div className="map__container"> */}
+        <MapComponent />
 
-      </div>
+      {/* </div> */}
   
     </div>
 
