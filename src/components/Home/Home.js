@@ -22,7 +22,7 @@ function Home(props) {
         <div className="homepage__text">
           <h1 className="homepage__heading">Hi.</h1>
           <h1 className="homepage__heading">I'm Zach.</h1>
-          <h4 className="homepage__description">Front End / Full Stack Web Developer</h4>
+          <h4 className="homepage__description">Full Stack Web Developer</h4>
           <a href="/about" className="btn homepage__button" role="button">Learn more about me</a>
           {/* <img className="homepage__img" src={pic} alt="Profile Pic" /> */}
         </div>

@@ -5,12 +5,13 @@
     sans-serif;
   width: 100%;
   max-width: 600px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 form {
   max-width: 500px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .contact__header {

@@ -28,13 +28,8 @@
   font-family: "Open Sans", sans-serif;
 }
 
-
-/* .form__container {
-  background-color: aqua;
-} */
-
-.map__container {
-  background-color: blue;
+@media (max-width: 1000px) {
+  .contact__cardContainer {
+    flex-direction: column;
+  }
 }
-
-

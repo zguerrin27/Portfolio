@@ -10,9 +10,9 @@ function ContactForm(props) {
   const onSubmit = data => console.log(data);
 
   return (
-    <div className="contactForm__Container">
+    // <div className="contactForm__Container">
       <form onSubmit={handleSubmit(onSubmit)}>
-      <h1 className="contact__header">Contact Me.</h1>
+        <h1 className="contact__header">Contact Me.</h1>
           <div>
             <label htmlFor="firstName">First Name</label>
             <input 
@@ -67,7 +67,8 @@ function ContactForm(props) {
           </div>
           <input type="submit" />
         </form>
-      </div>
+        
+      // </div>
   );
 }
 
