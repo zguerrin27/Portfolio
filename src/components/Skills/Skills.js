@@ -17,6 +17,7 @@ function Skills(props) {
     >
       <div className="skills__cardContainer">
         <h1>Skills</h1>
+        
       </div>
     </motion.div>
   );
