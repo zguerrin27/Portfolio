@@ -14,7 +14,7 @@ function NavBar(props) {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto left-nav">              {/* means "marginLeft-auto". could also be mr-auto */}
           <Nav.Link as={Link} onClick={toggle}  to="/about" >About Me</Nav.Link>
-          <Nav.Link as={Link} onClick={toggle}  to="/projects" >Projects</Nav.Link>
+          {/* <Nav.Link as={Link} onClick={toggle}  to="/projects" >Projects</Nav.Link> */}
           <Nav.Link as={Link} onClick={toggle}  to="/skills" >Skills</Nav.Link>
           <Nav.Link as={Link} onClick={toggle}  to="/contact" >Contact Me</Nav.Link>
         </Nav>
