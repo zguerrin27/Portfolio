@@ -25,7 +25,7 @@
   font-weight: 300;
   margin-top: 0;
   position: relative;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.3rem;
 }
 
 #aboutMe__descriptions {
@@ -80,19 +80,6 @@
   width: 56px;
 }
 
-@media only screen and (max-width: 600px) {
-  #aboutMe__descriptions {
-    flex-direction: column;
-  }
-  #aboutMe__subTitle {
-    margin-top: 40px;
-  }
-  #aboutMe__pers {
-    margin-top: 0;
-  }
-}
-
-
 @media (max-width: 1120px) {
   #aboutMe__descriptions {
     flex-direction: column;
@@ -102,5 +89,14 @@
   }
   #aboutMe__pers {
     margin-top: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  #aboutMe__subTitle {
+    margin-top: 40px;
+  }
+  #aboutMe__pers {
+    margin-top: 0;
   }
 }

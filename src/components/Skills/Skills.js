@@ -17,6 +17,16 @@ function Skills(props) {
     >
       <div className="skills__cardContainer">
         <h1>Skills</h1>
+        <div className="Languages">
+
+        </div>
+        <div className="Markup/styling">
+
+        </div>
+        <div className="backend">
+
+        </div>
+        
         
       </div>
     </motion.div>
