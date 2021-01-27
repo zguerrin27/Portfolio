@@ -13,7 +13,7 @@
   width: 90%;
   max-width: 1000px;
   background-color: #1d1d1d;
-  border: 25px solid #1d1d1d;
+  border: 15px solid #1d1d1d;
   border-radius: 25px;
   box-shadow: 10px 10px 10px #161616;
 }
@@ -25,7 +25,7 @@
   font-weight: 300;
   margin-top: 0;
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 #aboutMe__descriptions {
@@ -58,19 +58,21 @@
 #aboutMe__pers {
   color: white;
   flex: 1;
+  margin-top: 88px;
 }
 
 #aboutMe__img {
   object-fit: cover;
   width: 100%;
-  height: 400px;
+  height: 270px;
   border-radius: 20px;
 }
 
 #aboutMe__icons {
   display: flex;
   justify-content: space-evenly;
-  margin: 27px;
+  margin: auto;
+  margin-top: 40px;
 }
 
 .rails__icon {
@@ -85,6 +87,9 @@
   #aboutMe__subTitle {
     margin-top: 40px;
   }
+  #aboutMe__pers {
+    margin-top: 0;
+  }
 }
 
 
@@ -94,5 +99,8 @@
   }
    #aboutMe__textContainer {
     max-width: 800px;
+  }
+  #aboutMe__pers {
+    margin-top: 25px;
   }
 }

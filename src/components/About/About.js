@@ -20,9 +20,9 @@ function About(props) {
     >
 
       <div id="aboutMe__textContainer">
-        <h1 id="header">About Me.</h1>
         <div id="aboutMe__descriptions">
           <div id="aboutMe__prof">
+        <h1 id="header">About Me.</h1>
             <h4 id="aboutMe__subTitle">Professionally</h4>
             <p>I am an aspiring Full Stack Web Developer working in the Greater Boston Area.</p>
             <p>For the past eight years I have been working for Apple in various roles, and have decided to pursue a career in software development! 
@@ -31,12 +31,8 @@ function About(props) {
             <p>In addition to those technologies, I wrote and maintained Unit and Integrations tests using Jest, Enzyme and RSPEC. As well as Github for version control.</p>
             <div id="aboutMe__icons">
               <i className="fab fa-js fa-4x"></i>
-              {/* <i className="rails__icon"><Rubyonrails width="100%" height="100%" /></i> */}
               <Rubyonrails viewBox="5 0 15 20" width="100" height="56" style={{minWidth: '100'}} />
               <i className="fab fa-react fa-4x"></i>
-              
-              
-
             </div>
           </div>
           <br/>
