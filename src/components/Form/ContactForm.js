@@ -16,7 +16,7 @@ function ContactForm(props) {
         }
         // alert('Message Sent, I\'ll get back to you shortly', result.text);
       }, (error) => {
-        alert( 'An error occured, Plese try again', error.text)
+        alert( 'An error occured, Plese try again', error.text) 
       });
       
   }
